@@ -7,13 +7,13 @@ Install the Expo CLI:
 $ npm install -g expo-cli
 ```
 
-Use the template
+Use the template. Move inside the `expo-template-scala` directory and run:
 ```
 $ expo init --template expo-template-scala
 ```
 
 ## Building Apps
-Once you've created your project, first compile your Scala code to JavaScript by running
+Once you've created your project, move inside the newly created directory (named as you choose in the previous step) and first compile your Scala code to JavaScript by running
 ```
 $ sbt fastOptJS
 ```

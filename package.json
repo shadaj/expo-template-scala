@@ -1,6 +1,8 @@
 {
   "name": "expo-template-scala",
   "version": "35.0.0-0",
+  "repository": "https://github.com/shadaj/expo-template-scala",
+  "license": "MIT",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -13,7 +15,7 @@
     "expo": "^35.0.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
     "react-proxy": "1.1.8"
   },
   "devDependencies": {

@@ -2,12 +2,9 @@ package hello.world
 
 import slinky.core._
 import slinky.core.annotations.react
-
 import slinky.native._
 
-import scala.scalajs.js
 import scala.scalajs.js.Dynamic.literal
-import scala.scalajs.js.annotation.{JSImport, ScalaJSDefined}
 
 @react class App extends Component {
   type Props = Unit

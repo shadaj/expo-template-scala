@@ -1,6 +1,6 @@
 {
   "name": "expo-template-scala",
-  "version": "35.0.0-0",
+  "version": "35.0.0-1",
   "repository": "https://github.com/shadaj/expo-template-scala",
   "license": "MIT",
   "main": "node_modules/expo/AppEntry.js",

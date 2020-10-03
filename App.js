@@ -1,8 +1,9 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 
+let app;
 if (__DEV__) {
-  module.exports = require("./target/scala-2.13/app-fastopt.js").app;
+  app = require("./target/scala-2.13/app-fastopt.js").app;
 } else {
   module.exports = () => {
     return <View style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
@@ -13,5 +14,7 @@ if (__DEV__) {
   }
 
   // uncomment the following line to enable opt building
-  // module.exports = require("./target/scala-2.12/app-opt.js").app;
+  // app = require("./target/scala-2.13/app-opt.js").app;
 }
+
+export default app;

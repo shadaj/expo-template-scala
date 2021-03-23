@@ -2,6 +2,9 @@
 This template sets up a simple React Native application written in Scala through [Scala.js](https://www.scala-js.org), [Slinky](https://slinky.dev), and [Expo](https://expo.io).
 
 ## Installation
+
+On macOS will need to install XCode for this if you haven't already.
+
 Install the Expo CLI:
 ```
 $ npm install -g expo-cli
@@ -10,6 +13,11 @@ $ npm install -g expo-cli
 Use the template
 ```
 $ expo init --template expo-template-scala
+```
+
+Prepare react-native
+```
+$ npm install react-native
 ```
 
 ## Building Apps

@@ -4,7 +4,7 @@
     "description": "A template setting up Expo with Slinky and Scala.js",
     "slug": "new-template",
     "privacy": "public",
-    "sdkVersion": "38.0.0",
+    "sdkVersion": "41.0.0",
     "platforms": [
       "ios",
       "android"
